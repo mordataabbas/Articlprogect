@@ -100,7 +100,7 @@ namespace ArticlProgect.Controllers
                     Twitter = collection.Twitter,
                     UserId = collection.UserId,
                     UserName = collection.UserName,
-                    ProfileImageUrl = filesHelper.UploadFile(collection.ProfileImageUrl, "Images")
+                    ProfileImageUrl = filesHelper.UploadFile(collection.ProfileImageUrl,"wwwroot\\Images")
 
                 };
                 dataHelper.Edit(id, author);
@@ -149,14 +149,14 @@ namespace ArticlProgect.Controllers
             try
             {
                 dataHelper.Delete(id);
-                string filepath = "~/Images/" + collection.ProfileImageUrl;
+                string filepath = "wwwroot\\Images" + collection.ProfileImageUrl;
                 if (System.IO.File.Exists(filepath))
                 {
                     System.IO.File.Delete(filepath);
                 }
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch(Exception ex)
             {
                 return View();
             }

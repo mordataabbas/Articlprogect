@@ -133,6 +133,7 @@ namespace ArticlProgect.Controllers
             SetUser();
             try
             {
+                var url = filesHelper.UploadFile(collection.PostImageUrl,"wwwroot\\Images");
                 var Post = new AuthorPost
                 {
                     AddedDate=DateTime.Now,
@@ -146,14 +147,15 @@ namespace ArticlProgect.Controllers
                    PostTitle= collection.PostTitle,
                   UserId = UserId,
                    UserName = dataHelperForAuthor.GetAllData().Where(x => x.UserId == UserId).Select(x => x.UserName).First(),
-                    PostImageUrl = filesHelper.UploadFile(collection.PostImageUrl, "Images")
+                    PostImageUrl = filesHelper.UploadFile(collection.PostImageUrl, "wwwroot\\Images")
 
                 };
                 dataHelper.Add(Post);
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch(Exception ex)
             {
+
                 return View();
             }
         }
@@ -202,7 +204,7 @@ namespace ArticlProgect.Controllers
                         PostTitle = collection.PostTitle,
                         UserId = UserId,
                         UserName = dataHelperForAuthor.GetAllData().Where(x => x.UserId == UserId).Select(x => x.UserName).First(),
-                        PostImageUrl = filesHelper.UploadFile(collection.PostImageUrl, "Images"),
+                        PostImageUrl = filesHelper.UploadFile(collection.PostImageUrl, "wwwroot\\Images"),
                         Id=collection.Id 
 
                     };
