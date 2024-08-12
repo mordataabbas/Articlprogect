@@ -4,14 +4,14 @@
     "D:\\newArticlprogect\\Articlprogect\\Articlprogect.csproj": {}
   },
   "projects": {
-    "D:\\newArticlprogect\\ArticlProgect.Core\\ArticlProgect.Core.csproj": {
+    "D:\\newArticlprogect\\Articlprogect.Core\\Articlprogect.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\newArticlprogect\\ArticlProgect.Core\\ArticlProgect.Core.csproj",
-        "projectName": "ArticlProgect.Core",
-        "projectPath": "D:\\newArticlprogect\\ArticlProgect.Core\\ArticlProgect.Core.csproj",
+        "projectUniqueName": "D:\\newArticlprogect\\Articlprogect.Core\\Articlprogect.Core.csproj",
+        "projectName": "Articlprogect.Core",
+        "projectPath": "D:\\newArticlprogect\\Articlprogect.Core\\Articlprogect.Core.csproj",
         "packagesPath": "C:\\Users\\American Cementing48\\.nuget\\packages\\",
-        "outputPath": "D:\\newArticlprogect\\ArticlProgect.Core\\obj\\",
+        "outputPath": "D:\\newArticlprogect\\Articlprogect.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\American Cementing48\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\newArticlprogect\\ArticlProgect.Data\\ArticlProgect.Data.csproj": {
+    "D:\\newArticlprogect\\Articlprogect.Data\\Articlprogect.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\newArticlprogect\\ArticlProgect.Data\\ArticlProgect.Data.csproj",
-        "projectName": "ArticlProgect.Data",
-        "projectPath": "D:\\newArticlprogect\\ArticlProgect.Data\\ArticlProgect.Data.csproj",
+        "projectUniqueName": "D:\\newArticlprogect\\Articlprogect.Data\\Articlprogect.Data.csproj",
+        "projectName": "Articlprogect.Data",
+        "projectPath": "D:\\newArticlprogect\\Articlprogect.Data\\Articlprogect.Data.csproj",
         "packagesPath": "C:\\Users\\American Cementing48\\.nuget\\packages\\",
-        "outputPath": "D:\\newArticlprogect\\ArticlProgect.Data\\obj\\",
+        "outputPath": "D:\\newArticlprogect\\Articlprogect.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\American Cementing48\\AppData\\Roaming\\NuGet\\NuGet.Config",
